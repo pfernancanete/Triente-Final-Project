@@ -1,3 +1,4 @@
-![Triente logo](https://user-images.githubusercontent.com/80899361/117803707-3a016180-b257-11eb-9706-6a4f51d945e2.jpg)
+![LogoSample_ByTailorBrands (1)](https://user-images.githubusercontent.com/80899361/117804261-ddeb0d00-b257-11eb-99ba-ff7a86858c96.jpg)
+
 
 # Triente-Final-Project
