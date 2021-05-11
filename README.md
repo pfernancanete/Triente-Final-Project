@@ -1,2 +1,3 @@
-![Triente logo](https://user-images.githubusercontent.com/80899361/117803378-daa35180-b256-11eb-96ca-de66f2a5014c.jpg)
+![Triente logo](https://user-images.githubusercontent.com/80899361/117803707-3a016180-b257-11eb-9706-6a4f51d945e2.jpg)
+
 # Triente-Final-Project
