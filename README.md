@@ -2,7 +2,8 @@
 
 # T R I E N T E
 
-<img src="C:\Users\pablo\Desktop\IRONHACK\Triente-Final-Project\Images\Portada.jpg" style="zoom:60%;" />
+![Portada](https://user-images.githubusercontent.com/80899361/118860873-2c457f00-b8dc-11eb-8f4e-96852ea5dbc4.jpg)
+
 
 
 
