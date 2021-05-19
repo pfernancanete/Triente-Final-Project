@@ -5,13 +5,14 @@ import plotly.express as px
 import pandas as pd
 import streamlit.components.v1 as components
 import os
-import src.prueba as fi
+import src.find as fi
 import time
 from datetime import datetime
 import numpy as np
 import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
 import src.visualizacon as vi
+import altair as alt
 
 
 st.set_page_config(page_title="TRIENTE", page_icon="👷", layout='centered', initial_sidebar_state='auto')
@@ -21,8 +22,6 @@ imagen = Image.open('Images/Logo/Construction.jpg')
 st.image(imagen)
 
 
-
-weekday = datetime.today().weekday()
 
 empresa_col, direccion_col, obra_col = st.beta_columns([2.8,0.1,0.1])
 empresa_col1, empresa_col2 = st.beta_columns([1,1])
@@ -738,81 +737,6 @@ if choice == "EXPLORA":
 	datos = vi.grafico_barras_actividad()
 	st.bar_chart(datos)
 
-
-
-
-
-	busca_empleados = st.text_input('Introduce el nombre de la empresa')
-	if busca_empleados == {f"busca_empleados"}:
-		datos = vi.empleados(busca_empleados)
-		st.bar_chart(datos)
-
-
-
-
-
-
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------
-	st.text('This will appear first')
-	# Appends some text to the app.
-
-	my_slot1 = st.empty()
-	# Appends an empty slot to the app. We'll use this later.
-
-	my_slot2 = st.empty()
-	# Appends another empty slot.
-
-	st.text('This will appear last')
-	# Appends some more text to the app.
-
-	my_slot1.text('This will appear second')
-	# Replaces the first empty slot with a text string.
-
-	my_slot2.line_chart(np.random.randn(20, 2))
-	# Replaces the second empty slot with a chart.
-
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------
-	progress_bar = st.progress(0)
-	status_text = st.empty()
-	chart = st.line_chart(np.random.randn(10, 2))
-
-	for i in range(100):
-		# Update progress bar.
-		progress_bar.progress(i + 1)
-
-		new_rows = np.random.randn(10, 2)
-
-		# Update status text.
-		status_text.text(
-			'The latest random number is: %s' % new_rows[-1, 1])
-
-		# Append data to the chart.
-		chart.add_rows(new_rows)
-
-		# Pretend we're doing some computation that takes time.
-		time.sleep(0.1)
-
-	status_text.text('Done!')
-	st.balloons()
-		
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------
-	import numpy as np
-	import time
-
-	# Get some data.
-	data = np.random.randn(10, 2)
-
-	# Show the data as a chart.
-	chart = st.line_chart(data)
-
-	# Wait 1 second, so the change is clearer.
-	time.sleep(1)
-
-	# Grab some more data.
-	data2 = np.random.randn(10, 2)
-
-	# Append the new data to the existing chart.
-	chart.add_rows(data2)
 
 
 #-----------------------------------------NUEVO PERFIL---------------------------------------------------------------------------------

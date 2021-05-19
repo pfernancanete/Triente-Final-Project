@@ -1,7 +1,7 @@
 
 import pandas as pd
 from config.config import engine
-
+import seaborn as sns
 
 
 def load_data():
@@ -39,10 +39,10 @@ def grafico_barras_actividad():
     return data
 
 
-
-
-
-
+def grafico_barras_fact_empl():
+    data = load_data()
+    data = sns.barplot('Facturación_2019', 'Nº_empleados', palette='Set2', data=data)
+    return data
 
 
 
