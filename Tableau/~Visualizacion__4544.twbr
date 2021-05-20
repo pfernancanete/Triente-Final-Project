@@ -1,0 +1,2364 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0217.1203                               -->
+<workbook source-build='2020.4.2 (20204.21.0217.1203)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Empresas (BBDD_Empresas_v2_jup_v3)' inline='true' name='federated.08uhwnj1jma5md165z9v811avs07' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BBDD_Empresas_v2_jup_v3' name='excel-direct.00losaa0i8m21q1fahl2n0rlqdcx'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/pablo/Desktop/IRONHACK/Triente-Final-Project/Data/BBDD_Empresas_v2_jup_v3.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.00losaa0i8m21q1fahl2n0rlqdcx' name='Empresas' table='[Empresas$]' type='table'>
+          <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Id._Empresa' ordinal='0' />
+            <column datatype='string' name='Razón_Social' ordinal='1' />
+            <column datatype='string' name='CIF' ordinal='2' />
+            <column datatype='string' name='Domicilio' ordinal='3' />
+            <column datatype='string' name='Id_Municipio_INE' ordinal='4' />
+            <column datatype='string' name='Municipio' ordinal='5' />
+            <column datatype='string' name='Población' ordinal='6' />
+            <column datatype='string' name='Provincia' ordinal='7' />
+            <column datatype='string' name='País' ordinal='8' />
+            <column datatype='string' name='Código_Postal' ordinal='9' />
+            <column datatype='integer' name='Teléfono' ordinal='10' />
+            <column datatype='string' name='Teléfono 1' ordinal='11' />
+            <column datatype='string' name='Fax' ordinal='12' />
+            <column datatype='string' name='Web' ordinal='13' />
+            <column datatype='string' name='Email' ordinal='14' />
+            <column datatype='string' name='CNAE' ordinal='15' />
+            <column datatype='string' name='Descripción_actividad' ordinal='16' />
+            <column datatype='string' name='Área_principal' ordinal='17' />
+            <column datatype='string' name='Actividad_1' ordinal='18' />
+            <column datatype='string' name='Actividad_2' ordinal='19' />
+            <column datatype='string' name='Actividad_3' ordinal='20' />
+            <column datatype='string' name='Actividad_4' ordinal='21' />
+            <column datatype='string' name='Actividad_5' ordinal='22' />
+            <column datatype='string' name='Actividad_6' ordinal='23' />
+            <column datatype='real' name='Facturación_2019' ordinal='24' />
+            <column datatype='real' name='Inversión_2019' ordinal='25' />
+            <column datatype='real' name='Inversión_2020' ordinal='26' />
+            <column datatype='integer' name='Nº_empleados' ordinal='27' />
+            <column datatype='real' name='Capital' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.00losaa0i8m21q1fahl2n0rlqdcx' name='Empresas' table='[Empresas$]' type='table'>
+          <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Id._Empresa' ordinal='0' />
+            <column datatype='string' name='Razón_Social' ordinal='1' />
+            <column datatype='string' name='CIF' ordinal='2' />
+            <column datatype='string' name='Domicilio' ordinal='3' />
+            <column datatype='string' name='Id_Municipio_INE' ordinal='4' />
+            <column datatype='string' name='Municipio' ordinal='5' />
+            <column datatype='string' name='Población' ordinal='6' />
+            <column datatype='string' name='Provincia' ordinal='7' />
+            <column datatype='string' name='País' ordinal='8' />
+            <column datatype='string' name='Código_Postal' ordinal='9' />
+            <column datatype='integer' name='Teléfono' ordinal='10' />
+            <column datatype='string' name='Teléfono 1' ordinal='11' />
+            <column datatype='string' name='Fax' ordinal='12' />
+            <column datatype='string' name='Web' ordinal='13' />
+            <column datatype='string' name='Email' ordinal='14' />
+            <column datatype='string' name='CNAE' ordinal='15' />
+            <column datatype='string' name='Descripción_actividad' ordinal='16' />
+            <column datatype='string' name='Área_principal' ordinal='17' />
+            <column datatype='string' name='Actividad_1' ordinal='18' />
+            <column datatype='string' name='Actividad_2' ordinal='19' />
+            <column datatype='string' name='Actividad_3' ordinal='20' />
+            <column datatype='string' name='Actividad_4' ordinal='21' />
+            <column datatype='string' name='Actividad_5' ordinal='22' />
+            <column datatype='string' name='Actividad_6' ordinal='23' />
+            <column datatype='real' name='Facturación_2019' ordinal='24' />
+            <column datatype='real' name='Inversión_2019' ordinal='25' />
+            <column datatype='real' name='Inversión_2020' ordinal='26' />
+            <column datatype='integer' name='Nº_empleados' ordinal='27' />
+            <column datatype='real' name='Capital' ordinal='28' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AC10001:no:A1:AC10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id._Empresa</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id._Empresa]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Id._Empresa</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Razón_Social</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Razón_Social]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Razón_Social</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CIF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CIF]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>CIF</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domicilio</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Domicilio]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Domicilio</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Id_Municipio_INE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Id_Municipio_INE]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Id_Municipio_INE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Municipio</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Municipio]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Municipio</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Población</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Población]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Población</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provincia</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Provincia]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Provincia</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>País</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[País]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>País</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Código_Postal</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Código_Postal]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Código_Postal</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teléfono</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Teléfono]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Teléfono</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Teléfono 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Teléfono 1]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Teléfono 1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fax</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fax]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Fax</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Web</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Web]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Web</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Email]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Email</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CNAE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CNAE]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>CNAE</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Descripción_actividad</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Descripción_actividad]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Descripción_actividad</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Área_principal</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Área_principal]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Área_principal</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actividad_1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Actividad_1]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Actividad_1</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actividad_2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Actividad_2]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Actividad_2</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actividad_3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Actividad_3]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Actividad_3</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actividad_4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Actividad_4]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Actividad_4</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actividad_5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Actividad_5]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Actividad_5</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actividad_6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Actividad_6]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Actividad_6</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Facturación_2019</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Facturación_2019]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Facturación_2019</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inversión_2019</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inversión_2019]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Inversión_2019</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inversión_2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inversión_2020]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Inversión_2020</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nº_empleados</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nº_empleados]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Nº_empleados</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capital</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Capital]</local-name>
+            <parent-name>[Empresas]</parent-name>
+            <remote-alias>Capital</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Actividad 1' datatype='string' name='[Actividad_1]' role='dimension' type='nominal' />
+      <column caption='Actividad 2' datatype='string' name='[Actividad_2]' role='dimension' type='nominal' />
+      <column caption='Actividad 3' datatype='string' name='[Actividad_3]' role='dimension' type='nominal' />
+      <column caption='Actividad 4' datatype='string' name='[Actividad_4]' role='dimension' type='nominal' />
+      <column caption='Actividad 5' datatype='string' name='[Actividad_5]' role='dimension' type='nominal' />
+      <column caption='Actividad 6' datatype='string' name='[Actividad_6]' role='dimension' type='nominal' />
+      <column caption='Cnae' datatype='string' name='[CNAE]' role='dimension' type='nominal' />
+      <column caption='Código Postal' datatype='string' name='[Código_Postal]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='Descripción actividad' datatype='string' name='[Descripción_actividad]' role='dimension' type='nominal' />
+      <column caption='Facturación 2019' datatype='real' name='[Facturación_2019]' role='measure' type='quantitative' />
+      <column caption='Id. Empresa' datatype='integer' name='[Id._Empresa]' role='dimension' type='ordinal' />
+      <column caption='Id Municipio INE' datatype='string' name='[Id_Municipio_INE]' role='dimension' type='nominal' />
+      <column caption='Inversión 2019' datatype='real' name='[Inversión_2019]' role='measure' type='quantitative' />
+      <column caption='Inversión 2020' datatype='real' name='[Inversión_2020]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Municipio]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Nº empleados' datatype='integer' name='[Nº_empleados]' role='measure' type='quantitative' />
+      <column datatype='string' name='[País]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='string' name='[Población]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[Provincia]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+        <semantic-values semantic-role='[County].[Name]'>
+          <semantic-value key='&quot;Alicante/Alacant&quot;' value='&quot;Alicante&quot;' />
+          <semantic-value key='&quot;Balears, Illes&quot;' value='&quot;Illes Balears&quot;' />
+          <semantic-value key='&quot;Coruña, A&quot;' value='&quot;A Coruña&quot;' />
+          <semantic-value key='&quot;Palmas, Las&quot;' value='&quot;Las Palmas&quot;' />
+          <semantic-value key='&quot;Rioja, La&quot;' value='&quot;La Rioja&quot;' />
+          <semantic-value key='&quot;Valencia/València&quot;' value='&quot;Valencia&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Razón Social' datatype='string' name='[Razón_Social]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Empresas' datatype='table' name='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' role='measure' type='quantitative' />
+      <column caption='Área Principal' datatype='string' name='[Área_principal]' role='dimension' type='nominal' />
+      <column-instance column='[Municipio]' derivation='None' name='[none:Municipio:nk]' pivot='key' type='nominal' />
+      <column-instance column='[País]' derivation='None' name='[none:País:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Provincia]' derivation='None' name='[none:Provincia:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:País:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Libia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Alemania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guinea Ecuatorial&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Rumania&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Irlanda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tailandia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dinamarca&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;México&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Luxemburgo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bélgica&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Italia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Turquía&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Finlandia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Reino Unido&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Andorra&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hong Kong&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Singapur&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;España&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Polonia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Brasil&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Japón&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Noruega&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Emiratos Árabes Unidos&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Países Bajos&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Estados Unidos&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Francia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;República Checa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Malasia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Canadá&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hungría&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Suecia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Eslovaquia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Panamá&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Corea del Sur&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Malí&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Suiza&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Provincia:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Abrantes&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Badajoz&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bragança&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ceuta&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Elvas&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Guarda&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;La Massana&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Málaga&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Navarra&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pekin&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Rosmalen&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tokyo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vila Franca do Campo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Amersfoort&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Belfast&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cabeceiras de Basto&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cork&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Frankfurt&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Irving&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;LM Nieuwegein&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mjøndalen&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ourense&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Queensland&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Seia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sydney&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Vantaa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;West Sussex&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AA Papendrecht&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Arcos de Valdevez&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bogotá&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cantabria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Covilhã&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gondomar&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;København V&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lugo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Montreal, Quebec&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Palmela&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Reston&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Setúbal&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Teruel&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Victoria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Zamora&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Al Sewan–Ajman&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bamako&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Brno-stred&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cheshire&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Estambul&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Gyeongsangnam-do&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Leicestershire&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Melilla&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Northampton&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Pombal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sabugal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Solna&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Torres Vedras&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Vila Verde&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Abu Dhabi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Baião&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bratislava&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Charlotte&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Epsom&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Guayaquil&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lagoa&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mannheim&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nelas&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Peniche&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Rotterdam&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sintra&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Toledo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Vila Nova de Famalicão&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Aabyhoej&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Asturias&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Boticas&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Castellón/Castelló&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Crato&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Granada&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kockelscheuer&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Madrid&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mortágua&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Papenburg&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Rio de Janeiro&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sevilla&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Texas&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Viena&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Zaragoza&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Almería&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bedfordshire&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bunnik&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Colombres&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Förslöv&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Huelva&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lisboa&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Minneapolis&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Oslo&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prague&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;São Brás de Alportel&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Stuttgart&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Valladolid&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Watsonville&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot; Düsseldorf&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Andorra La Vella&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Berkshire&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cáceres&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Corroios&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Gipuzkoa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Jaén&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;London&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Montemor-o-Novo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Oxford&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Quilicura&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sengenthal&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tabuaço&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Varsovia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wien&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Alicante/Alacant&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Batalha&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Budapest&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Coimbra&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Firestone Colorado&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hertfordshire&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Limerick&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Milano&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Oliveira do Bairro&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Póvoa de Varzim&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Santa Maria da Feira&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;St. Quentin en Yvelines&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Valença&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Warsaw&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Aalborg Øst&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Aveiro&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Boulogne-Billancourt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Castelo Branco&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cuenca&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Greeley&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kraków&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mafra&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mumbai&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;París&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rioja, La&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sharjah&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;The Woodlands, Texas&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vila do Conde&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zwijndrecht&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Alameda&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bangkok&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bruselas&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chieti&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Évora&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hammond&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Leiria&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Michigan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Nueva York&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ponte de Lima&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Salamanca&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Soria&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tortona&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Vila Viçosa&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Albacete&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Barcelona&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Brussels&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ciudad de Panamá&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Felgueiras&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Helsinki&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;León&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Milán&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NY&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pontevedra&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Santa Coloma&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Soure&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Trancoso&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Wals bei Salzburg&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Almeirim&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Beckley&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Buenos Aires&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Colombes&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Footscray&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hong Kong&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lindfield&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Milperra&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Oliveira do Hospital&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Praga&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Santiago&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Stockholm&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Valencia/València&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Warszawa&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Amadora&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Beijing&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Burgos&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Córdoba&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fráncfort&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Huesca&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lleida&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mirandela&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ourém&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Proença-a-Nova&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Segovia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Surrey GU15 3XW&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Vancouver&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;West Midlands&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Adelaide&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Balears, Illes&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BREA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Chaves&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Esposende&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Guimarães&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lamego&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Matosinhos&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;New South Wales&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Perpignan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Rueil-Malmaison&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Skierniewice&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tondela&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Vila Nova de Gaia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Aarau&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ávila&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Braga&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Castro Daire&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Draper&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Guadalajara&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kuala Lumpur&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Maisons LaFfitte&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Murcia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pekín&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Roma&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sheffield&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tianjin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Vila Flor&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot; Søborg&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Apeldoorn&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Berlin&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cádiz&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Coruña, A&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Girona&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jersey&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Londres&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Montemor-o-Velho&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Palencia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Reguengos de Monsaraz&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Seoul&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tampa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vélizy-Villacoublay&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wondelgem&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Alenquer&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bata&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bucarest&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ciudad Real&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ferreira do Alentejo&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Heroica Matamoros&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Letchworth Garden City&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Milan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Oeiras&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Porcia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Santa Cruz de Tenerife&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;St-Quentin-en-Yvelines&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Udine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Wanchai&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Aix en Povence&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ballerup&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Brentwood&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Chenna&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Essen&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Guyancourt&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lancaster&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Melbourne&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Phoenix&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Rueil-Malmaison Cedex&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Soborg&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Toronto&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Vila Real&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot; Thônes&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Araba/Álava&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bizkaia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Caminha&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Courbevoie&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Góis&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kent&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Loures&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Montijo&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Palmas, Las&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Requião&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Serpa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tarragona&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Vicenza&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Yorkshire&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Municipio:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Arganda del Rey&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Castelló&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Getafe&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Navas del Rey&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pontevedra&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Torrejón de Velasco&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Albacete&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Colmenar Viejo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lleida&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;San Fernando de Henares&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Villanueva de la Cañada&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Zaragoza&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Alcorcón&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Barcelona&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Daganzo de Arriba&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Melilla&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Moralzarzal&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sevilla la Nueva&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bustarviejo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cuenca&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Leganés&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Perales de Tajuña&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sevilla&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Valdemorillo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Arroyomolinos&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ceuta&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Griñón&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nuevo Baztán&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Salamanca&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Torrelaguna&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Algete&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Burgos&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fuenlabrada&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Morata de Tajuña&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Murcia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tielmes&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cobeña&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Jaén&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Meco&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rozas de Madrid (Las)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Valladolid&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Villa del Prado&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ajalvir&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Almería&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Colmenarejo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Lugo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Molar (El)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;San Lorenzo de El Escorial&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Villarejo de Salvanés&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Chinchón&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Huelva&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Miraflores de la Sierra&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Rivas-Vaciamadrid&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Toledo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Velilla de San Antonio&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Alpedrete&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cáceres&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Fuente el Saz de Jarama&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Móstoles&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ourense&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Torrejón de Ardoz&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cabrera (La)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Girona&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Loeches&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pinto&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Soria&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Valdemoro&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Camarma de Esteruelas&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Granada&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lozoyuela-Navas-Sieteiglesias&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pozuelo de Alarcón&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tarragona&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Valdetorres de Jarama&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ciempozuelos&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Huesca&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Majadahonda&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Robledo de Chavela&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;València&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Vellón (El)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Collado Villalba&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;León&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mejorada del Campo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;San Agustín del Guadalix&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Villaconejos&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Zamora&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Berrueco (El)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ciudad Real&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Guadarrama&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Paracuellos de Jarama&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Santa Cruz de Tenerife&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Torres de la Alameda&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Aranjuez&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cádiz&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Galapagar&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Navalcarnero&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Palencia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Torrejón de la Calzada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Alcalá de Henares&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ávila&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Coslada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Madrid&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Molinos (Los)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;San Martín de la Vega&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Villaviciosa de Odón&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Campo Real&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Guadalajara&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Madarcos&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Quijorna&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Teruel&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Valdilecha&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Boadilla del Monte&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Córdoba&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Humanes de Madrid&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Parla&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Segovia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tres Cantos&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Alcobendas&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Badajoz&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cubas de la Sagra&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Málaga&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Moraleja de Enmedio&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;San Sebastián de los Reyes&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Empresas' id='Empresas_CC0EF2967F0B466EB7D73FFA01006C93'>
+            <properties context=''>
+              <relation connection='excel-direct.00losaa0i8m21q1fahl2n0rlqdcx' name='Empresas' table='[Empresas$]' type='table'>
+                <columns gridOrigin='A1:AC10001:no:A1:AC10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Id._Empresa' ordinal='0' />
+                  <column datatype='string' name='Razón_Social' ordinal='1' />
+                  <column datatype='string' name='CIF' ordinal='2' />
+                  <column datatype='string' name='Domicilio' ordinal='3' />
+                  <column datatype='string' name='Id_Municipio_INE' ordinal='4' />
+                  <column datatype='string' name='Municipio' ordinal='5' />
+                  <column datatype='string' name='Población' ordinal='6' />
+                  <column datatype='string' name='Provincia' ordinal='7' />
+                  <column datatype='string' name='País' ordinal='8' />
+                  <column datatype='string' name='Código_Postal' ordinal='9' />
+                  <column datatype='integer' name='Teléfono' ordinal='10' />
+                  <column datatype='string' name='Teléfono 1' ordinal='11' />
+                  <column datatype='string' name='Fax' ordinal='12' />
+                  <column datatype='string' name='Web' ordinal='13' />
+                  <column datatype='string' name='Email' ordinal='14' />
+                  <column datatype='string' name='CNAE' ordinal='15' />
+                  <column datatype='string' name='Descripción_actividad' ordinal='16' />
+                  <column datatype='string' name='Área_principal' ordinal='17' />
+                  <column datatype='string' name='Actividad_1' ordinal='18' />
+                  <column datatype='string' name='Actividad_2' ordinal='19' />
+                  <column datatype='string' name='Actividad_3' ordinal='20' />
+                  <column datatype='string' name='Actividad_4' ordinal='21' />
+                  <column datatype='string' name='Actividad_5' ordinal='22' />
+                  <column datatype='string' name='Actividad_6' ordinal='23' />
+                  <column datatype='real' name='Facturación_2019' ordinal='24' />
+                  <column datatype='real' name='Inversión_2019' ordinal='25' />
+                  <column datatype='real' name='Inversión_2020' ordinal='26' />
+                  <column datatype='integer' name='Nº_empleados' ordinal='27' />
+                  <column datatype='real' name='Capital' ordinal='28' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Madrid'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Empresas (BBDD_Empresas_v2_jup_v3)' name='federated.08uhwnj1jma5md165z9v811avs07' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.08uhwnj1jma5md165z9v811avs07'>
+            <column caption='Código Postal' datatype='string' name='[Código_Postal]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+            <column datatype='string' name='[País]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Empresas' datatype='integer' name='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Provincia]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Alicante/Alacant&quot;' value='&quot;Alicante&quot;' />
+                <semantic-value key='&quot;Balears, Illes&quot;' value='&quot;Illes Balears&quot;' />
+                <semantic-value key='&quot;Coruña, A&quot;' value='&quot;A Coruña&quot;' />
+                <semantic-value key='&quot;Palmas, Las&quot;' value='&quot;Las Palmas&quot;' />
+                <semantic-value key='&quot;Rioja, La&quot;' value='&quot;La Rioja&quot;' />
+                <semantic-value key='&quot;Valencia/València&quot;' value='&quot;Valencia&quot;' />
+              </semantic-values>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Empresas' datatype='table' name='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Empresas_CC0EF2967F0B466EB7D73FFA01006C93:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Código_Postal]' derivation='None' name='[none:Código_Postal:nk]' pivot='key' type='nominal' />
+            <column-instance column='[País]' derivation='None' name='[none:País:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Provincia]' derivation='None' name='[none:Provincia:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08uhwnj1jma5md165z9v811avs07].[none:País:nk]'>
+            <groupfilter function='member' level='[none:País:nk]' member='&quot;España&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.08uhwnj1jma5md165z9v811avs07].[none:Provincia:nk]'>
+            <groupfilter function='member' level='[none:Provincia:nk]' member='&quot;Madrid&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.08uhwnj1jma5md165z9v811avs07].[none:País:nk]</column>
+            <column>[federated.08uhwnj1jma5md165z9v811avs07].[none:Provincia:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]' field-type='quantitative' max='-242979.77998428757' min='-589717.28998255148' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]' field-type='quantitative' max='5040855.0546135362' min='4836994.3140719924' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <text column='[federated.08uhwnj1jma5md165z9v811avs07].[__tableau_internal_object_id__].[cnt:Empresas_CC0EF2967F0B466EB7D73FFA01006C93:qk]' />
+              <color column='[federated.08uhwnj1jma5md165z9v811avs07].[none:Código_Postal:nk]' />
+              <geometry column='[federated.08uhwnj1jma5md165z9v811avs07].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]</rows>
+        <cols>[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{2B3163F4-964B-4DE2-9BCF-8FAF33D4141C}' />
+    </worksheet>
+    <worksheet name='Mapa'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Empresas (BBDD_Empresas_v2_jup_v3)' name='federated.08uhwnj1jma5md165z9v811avs07' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.08uhwnj1jma5md165z9v811avs07'>
+            <_.fcp.ObjectModelTableType.false...column caption='Empresas' datatype='integer' name='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' role='measure' type='quantitative' />
+            <column datatype='string' name='[País]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Empresas' datatype='table' name='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Empresas_CC0EF2967F0B466EB7D73FFA01006C93:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[País]' derivation='None' name='[none:País:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]</column>
+            <column>[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.08uhwnj1jma5md165z9v811avs07].[none:País:nk]' />
+              <text column='[federated.08uhwnj1jma5md165z9v811avs07].[__tableau_internal_object_id__].[cnt:Empresas_CC0EF2967F0B466EB7D73FFA01006C93:qk]' />
+              <geometry column='[federated.08uhwnj1jma5md165z9v811avs07].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]</rows>
+        <cols>[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{73BB5C50-506E-4A13-885B-56273D4185A4}' />
+    </worksheet>
+    <worksheet name='Spain'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Empresas (BBDD_Empresas_v2_jup_v3)' name='federated.08uhwnj1jma5md165z9v811avs07' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.08uhwnj1jma5md165z9v811avs07'>
+            <column datatype='string' name='[País]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Empresas' datatype='integer' name='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Provincia]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Alicante/Alacant&quot;' value='&quot;Alicante&quot;' />
+                <semantic-value key='&quot;Balears, Illes&quot;' value='&quot;Illes Balears&quot;' />
+                <semantic-value key='&quot;Coruña, A&quot;' value='&quot;A Coruña&quot;' />
+                <semantic-value key='&quot;Palmas, Las&quot;' value='&quot;Las Palmas&quot;' />
+                <semantic-value key='&quot;Rioja, La&quot;' value='&quot;La Rioja&quot;' />
+                <semantic-value key='&quot;Valencia/València&quot;' value='&quot;Valencia&quot;' />
+              </semantic-values>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Empresas' datatype='table' name='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Empresas_CC0EF2967F0B466EB7D73FFA01006C93]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Empresas_CC0EF2967F0B466EB7D73FFA01006C93:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[País]' derivation='None' name='[none:País:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Provincia]' derivation='None' name='[none:Provincia:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.08uhwnj1jma5md165z9v811avs07].[none:País:nk]'>
+            <groupfilter function='member' level='[none:País:nk]' member='&quot;España&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.08uhwnj1jma5md165z9v811avs07].[none:País:nk]</column>
+            <column>[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]</column>
+            <column>[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]' field-type='quantitative' max='529235.59560032003' min='-1499143.440577751' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]' field-type='quantitative' max='5502450.5671980251' min='4309886.0465141898' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.08uhwnj1jma5md165z9v811avs07].[none:Provincia:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.08uhwnj1jma5md165z9v811avs07].[none:Provincia:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.08uhwnj1jma5md165z9v811avs07].[none:Provincia:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.08uhwnj1jma5md165z9v811avs07].[none:País:nk]' />
+              <text column='[federated.08uhwnj1jma5md165z9v811avs07].[__tableau_internal_object_id__].[cnt:Empresas_CC0EF2967F0B466EB7D73FFA01006C93:qk]' />
+              <color column='[federated.08uhwnj1jma5md165z9v811avs07].[none:Provincia:nk]' />
+              <geometry column='[federated.08uhwnj1jma5md165z9v811avs07].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08uhwnj1jma5md165z9v811avs07].[Latitude (generated)]</rows>
+        <cols>[federated.08uhwnj1jma5md165z9v811avs07].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{E3657713-B74F-4F79-941D-D5510ABEFFEA}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='3' param='vert' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1AD070B0-0B81-4528-A082-90AE2953ADA6}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Mapa'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.08uhwnj1jma5md165z9v811avs07].[none:País:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{EBD2CBFE-9055-4A1F-8D3F-390D9813BD84}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Spain'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='4' param='[federated.08uhwnj1jma5md165z9v811avs07].[none:Provincia:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1AF13C82-95D2-4B4E-AC70-B02DBF26C214}' />
+    </window>
+    <window class='worksheet' name='Madrid'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.08uhwnj1jma5md165z9v811avs07].[none:Código_Postal:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{396AAD19-93EF-4335-9EA6-A078BBEBB02B}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{52666BCA-E4E1-427E-B181-C41024D42700}' />
+    </window>
+  </windows>
+</workbook>
